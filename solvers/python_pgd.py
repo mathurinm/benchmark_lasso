@@ -9,7 +9,7 @@ class Solver(BaseSolver):
     name = 'Python-PGD'  # proximal gradient, optionally accelerated
 
     # any parameter defined here is accessible as a class attribute
-    parameters = {'use_acceleration': [False, True]}
+    parameters = {'use_accelleration': [False, True]}
     references = [
         'I. Daubechies, M. Defrise and C. De Mol, '
         '"An iterative thresholding algorithm for linear inverse problems '
